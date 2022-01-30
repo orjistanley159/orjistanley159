@@ -1,0 +1,13 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/custom.ttf);
+}
+
+@font-face {
+    font-family: comforter;
+    src: url(../fonts/Comforter.ttf);
+}
+@font-face {
+    font-family:outfit;
+    src: url(../fonts/Outfit.ttf);
+}
