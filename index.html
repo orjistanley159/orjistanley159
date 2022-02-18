@@ -4,152 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/css/all.min.css">
-    <link rel="stylesheet" href="Assets/css/main.css">
-    <title>Student Landing Page</title>
+    <title>FedEx</title>
+    <link rel="stylesheet" href="../project/assets/css/main.css">
+    <link rel="stylesheet" href="../project/assets/css/media.css">
 </head>
 <body>
-    <header>
-        <section class="hero">
-            <nav  class="navigation">
-                  <div class="menu-items container">
-                      <div class="site-logo">
-                          <img src="Assets/images/logo-main.png" class="logo" alt="my_site_logo" title="this is the site logo">
-                      </div>
-                      <ul class="menu-parent">
-                          <li><a href="">Home</a></li>
-                          <li><a href="">Projects</a></li>
-                          <li><a href="">Resume</a></li>
-                          <li><a href="">Services</a></li>
-                          <li><a href="">Contact us</a></li>
-                      </ul>
-
-                      <div class="auth-btn_parent">
-                          <button class="btn btn-none-bg">Signup</button>
-                          <button class="btn btn-auth">Login</button>
-                      </div>
-
-                  </div>
+    <header id="hero">
+        <section class="navigation">
+            <nav>
+                <div class="container">
+                    <h2 class="nav_title"><span style="color:white">Fed</span><span style="color:orangered">Ex</span></h2>
+                <ul>
+                    <li class="menu"><a href="#">Shipping</a> </li>
+                    <li class="menu"><a href="#">Tracking</a> </li>
+                    <li class="menu"><a href="#">Support</a> </li>
+                    <li class="menu"><a href="#">Accent</a> </li>
+                </ul>
+                </div>
+                
+                <div class="auth">
+                    <a href="#">SignUp</a><a href="#">Login</a>
+                </div>
             </nav>
-            <div class="hero-text-parents container">
-                <h1 class="hero-header-text">
-                    Find cerified professionals teachers near you
-                </h1>
-                <p class="hero-lead">
-                    Teachable helps you connect witrh proffesional teachers in your location. These tutors/teachers are thoroughly vetted and will make sure your learning process as seamless asl possible.
-                </p>
+        </section>
+
+        <section class="hero_body">
+            <h1 class="hero_text">
+                Where now meets next.
+            </h1>
+
+            <div class="Hero_cards">
+                <div class="cards">
+                    SET TRANSIT <br>TIMES
+                </div>
+                <div class="cards middle">
+                    <span style="color: white;">TRACK</span> 
+                </div>
+                <div class="cards">
+                    SETUP
+                </div>
             </div>
 
-            <div class="hero-form container">
-                <form action="">
-                    <div class="form-group">
-                        <i class="fas fa-book-open icon"></i>
-                        <input type="text" class="input-control">
-                    </div>
-
-                    <div class="form-group">
-                        <i class="fas fa-map-marker-alt icon"></i>
-                        <input type="text" class="input-control">
-                    </div>
-
-                     <button class="btn-search"><i class="fas fa-search"></i></button>
-                </form>
+            <div class="hero_track">
+                <input type="text" class="hero_search" placeholder="TRACKING ID">
+                <button class="hero_track_btn">TRACK</button>
             </div>
-
         </section>
     </header>
 
-    <section class="teachers-section">
-        <div class="teacher-header">
-            <h3>Top teacher in your location</h3>
-            <button class="browse">Browse Teachers</button>
+    <section id="phase1" class="box">
+        <div class="phase1_body">
+            <div class="left_writeup">
+                <h3>Safety above all</h3> <br>
+                <p class="writeup">
+                    Recognize the trust you place in us when we deliver to your doorstep.
+                    Shipping deck or place of business. Thats why we want to keep you informed
+                    on the actions we are taking to keep you and our team members - safe amist 
+                    the Covid-19 outbreak
+                </p> 
+                <button class="left_writeup_btn">
+                    LEARN MORE
+                </button>
+            </div>
+
+            <div class="phase1_img">
+
+            </div>
+           
         </div>
-
-        <div class="teachers-card-container ">
-            <!-- teacher card -->
-         <div class="teacher-card">
-             <div class="teacher-card__header">
-
-             </div>
-             <div class="teacher-card__body">
-                 <div class="teacher_profile-pic">
-                     <img src="Assets/images/passport.jpg" alt="">
-                 </div>
-                 <div class="teachers-stat">
-                     <div class="teachers-name">
-                         <i class="fas fa-user"></i>
-                         <p>Sarah.D</p>
-                     </div>
-                     <div class="teachers-subject">
-                        <i class="fas fa-award"></i>
-                        <p>Mathematics <br> Teacher</p>
-                     </div>
-                     <div class="teachers-location">
-                        <i class="fas fa-map-marker"></i>
-                        <p>Odili Road <br>Rivers State</p>
-                     </div>
-                     <div class="teachers-deg">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="crumbs">
-                            <small class="teacher-cert">Bsc.</small>
-                            <small class="teacher-cert">Msc.</small>
-                            <small class="teacher-cert">Phd.</small>
-                        </div>
-                     </div>
-
-                     <div class="teacher-chart">
-                            <div class="chart-1">
-                                
-                            </div>                        
-                     </div>
-                 </div>
-             </div>
-         </div>
-          <!-- end of teacher card -->
-            <!-- teacher card -->
-         <div class="teacher-card">
-             <div class="teacher-card__header">
-
-             </div>
-             <div class="teacher-card__body">
-                 <div class="teacher_profile-pic">
-                     <img src="Assets/images/passport.jpg" alt="">
-                 </div>
-             </div>
-         </div>
-          <!-- end of teacher card -->
-
-            <!-- teacher card -->
-         <div class="teacher-card">
-             <div class="teacher-card__header">
-
-             </div>
-             <div class="teacher-card__body">
-                 <div class="teacher_profile-pic">
-                     <img src="Assets/images/passport.jpg" alt="">
-                 </div>
-             </div>
-         </div>
-          <!-- end of teacher card -->
-
-            <!-- teacher card -->
-         <div class="teacher-card">
-             <div class="teacher-card__header">
-
-             </div>
-             <div class="teacher-card__body">
-                 <div class="teacher_profile-pic">
-                     <img src="Assets/images/passport.jpg" alt="">
-                 </div>
-             </div>
-         </div>
-          <!-- end of teacher card -->
-
-
-
-
+        <div class="vat_rules">
+            <h2>Changes to EU VAT rules</h2>
+            <p>The EU is making important changes to its VAT rules on July 1, 2021. Learn more about them
+                and how your <br> business would be affected.
+            </p>
+            <h2 class="vat_det"><a href="#" style="color: black;"> <u>GET THE DETAILS</u> </a></h2>
         </div>
     </section>
-    
+
+    <!-- second phase -->
+    <section id="phase2" class="box">
+        <div class="phase2_head">
+            <h2 style="margin-bottom: 15px;">When you and your customers need it most</h2>
+            <p>Total effort to stop the spread of Covid-19 have changed the world and the way you do 
+                business overnight. We're <br> here to help your business deliver when you and your customers need it most.
+            </p>
+        </div>
+        <div class="phase2_card">
+            <!-- card 1 -->
+            <div class="phase2_cards">
+                <div class="card_img">
+
+                </div>
+                <h2 style="margin: 25px 0;">Customs Made Easier</h2>
+                <p style="text-align: center;">Learn about all the tools FedEx has to offer for shipping across borders.
+                    prepare and find international documents. estimate duties and takes search, country
+                    profiles. harmonize codes and much more.<br><br>
+
+                    <a href="#" style="color: blue;">Get Auctions &nbsp ></a>
+                </p>
+                
+            </div>
+            <!-- card 2 -->
+            <div class="phase2_cards">
+                <div class="card_img">
+
+                </div>
+                <h2 style="margin: 25px 0;">Open FedEx Account</h2>
+                <p style="text-align: center;">Emails from our services and solutions designed to meet 
+                    all of your shipping needs. Sign up for a FedEx shipping account below.<br><br>
+                    <a href="#" style="color: blue;">Lets get started  &nbsp ></a>
+                </p>
+                
+            </div>
+            <!-- card 3 -->
+            <div class="phase2_cards">
+                <div class="card_img">
+
+                </div>
+                <h2 style="margin: 25px 0;">FedEx International <br> Priority Express</h2>
+                <p style="text-align: center;">More delivery time indoors are available for your international
+                    shipments from January 3, 2022.<br><br>
+                    <a href="#" style="color: blue;" >Learn More  &nbsp ></a>
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- phase 3 -->
+    <section id="phase3" class="box">
+        <div class="phase3_body">
+
+            <div class="phase3_img">
+
+            </div>
+            <div class="phase3_text">
+                <h2>FedEx Nigeria News</h2> <br>
+
+                <p><a href="#" style="color: black;" margin: 20px 0px;"><u>Covid-19 News</u></a></p><br>
+                <p>Stay Connected with our service updates.
+                    regulatory changes and other important notifications.
+                </p>
+
+                <button class="news_btn">VIEW ALL NEWS</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="phase3_opt box">
+            <!-- 1 -->
+            <div class="opt">
+                <h2 style="margin-bottom: 15px;color: purple;">Options</h2>
+                <ul>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                </ul>
+            </div>
+
+            <!--2  -->
+            <div class="opt">
+                <h2 style="margin-bottom: 15px;color: purple;">Options</h2>
+                <ul>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                </ul>
+            </div>
+
+            <!-- 3 -->
+            <div class="opt">
+                <h2 style="margin-bottom: 15px;color: purple;">Options</h2>
+                <ul>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                    <li>News Media</li>
+                </ul>
+            </div>
+
+            <!-- 4  -->
+            <div class="opt">
+                <h2 style="margin-bottom: 15px;color: purple;">Options</h2>
+                <ul>
+                    <li>News Media</li>
+                </ul>
+                <select name="" id="" class="footer_lang_opt">
+                    <option value="">English</option>
+                    <option value="">French</option>
+                    <option value="">Spanish</option>
+                </select>
+            </div>
+
+            <div class="media_handles" style="margin-top: 30px;">
+                space for icons
+            </div>
+        </div>
+
+        
+
+        <div class="footer_wrap">
+            <h5>FedEx 1997-2022</h5>
+            <h5>Terms of live | Privacy Policy</h5>
+        </div>
+    </footer>
 </body>
 </html>
